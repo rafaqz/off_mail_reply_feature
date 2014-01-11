@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Off Mail Reply Feature feature.
+ */
+
+include_once 'off_mail_reply_feature.features.inc';
