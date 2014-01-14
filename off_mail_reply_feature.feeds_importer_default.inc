@@ -34,10 +34,10 @@ function off_mail_reply_feature_feeds_importer_default() {
     'processor' => array(
       'plugin_key' => 'FeedsCommentProcessor',
       'config' => array(
-        'input_format' => 'plain_text',
-        'update_existing' => 0,
+        'input_format' => 'filtered_html',
+        'update_existing' => '0',
         'skip_hash_check' => FALSE,
-        'expire' => -1,
+        'expire' => '-1',
         'mappings' => array(
           0 => array(
             'source' => 'parent_nid',
