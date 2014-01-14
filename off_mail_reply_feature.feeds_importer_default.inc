@@ -34,7 +34,7 @@ function off_mail_reply_feature_feeds_importer_default() {
     'processor' => array(
       'plugin_key' => 'FeedsCommentProcessor',
       'config' => array(
-        'input_format' => 'filtered_html',
+        'input_format' => 'comment_reply',
         'update_existing' => '0',
         'skip_hash_check' => FALSE,
         'expire' => '-1',
